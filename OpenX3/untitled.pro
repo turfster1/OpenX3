@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : E:/User/James/Documents/EAGLE/projects/OpenX3/untitled.brd
+Job           : C:/Users/James/Desktop/OpenX3/OpenX3 Repo/OpenX3/untitled.brd
 
-Start at      : 17:58:59 (2/2/2020)
-End at        : 17:59:23 (2/2/2020)
-Elapsed time  : 00:00:23
+Start at      : 10:31:42 (2/5/2020)
+End at        : 10:33:08 (2/5/2020)
+Elapsed time  : 00:01:23
 
-Signals       :    75   RoutingGrid: 6 mil  Layers: 2
-Connections   :    60   predefined:  0 ( 0 Vias )
+Signals       :   108   RoutingGrid: 6 mil  Layers: 2
+Connections   :   134   predefined:  0 ( 0 Vias )
 
-Router memory :   1420960
+Router memory :   531760
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:05  00:00:03  00:00:04  00:00:04  00:00:03  00:00:04
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:08  00:01:04  00:00:04  00:00:02  00:00:03  00:00:02
+Number of Ripups  :         0       545         0         0         0         0
+max. Level        :         0         7         0         0         0         0
+max. Total        :         0        20         0         0         0         0
 
-Routed            :        26        60        59        60        60        60
-Vias              :         0        63        78        72        72        72
-Resolution        :    43.3 %   100.0 %    98.3 %   100.0 %   100.0 %   100.0 %
+Routed            :        47       130       127       128       130       130
+Vias              :         0       258       243       227       225       215
+Resolution        :    35.1 %    97.0 %    94.8 %    95.5 %    97.0 %    97.0 %
 
-Final             : 100.0% finished
+Final             : 97.0% finished
