@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe  -osyn  C:\users\aaron\documents\cpld\openx3\synwork\OPENX3_hdl_.srs  -top  OPENX3  -prodtype  synplify_pro  -nostructver -encrypt  -pro  -dmgen  C:\users\aaron\documents\cpld\openx3\dm  -lite -compiler_compatible -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib  -lib work C:\users\aaron\documents\cpld\openx3\openx3.vhd -loga  C:\users\aaron\documents\cpld\openx3\syntax.log  -fileorder  C:\users\aaron\documents\cpld\openx3\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\users\aaron\documents\cpld\openx3\synwork\OPENX3_hdl_.srs|o|0|0
+C:\users\aaron\documents\cpld\openx3\openx3.vhd|i|1582823204|198
+C:\users\aaron\documents\cpld\openx3\syntax.log|o|1584186301|1038
+C:\ispLEVER_Classic2_0\synpbase\bin\c_vhdl.exe|i|1401252698|2046976
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe|i|1401252904|5533184

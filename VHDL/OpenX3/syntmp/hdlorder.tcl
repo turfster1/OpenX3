@@ -1,0 +1,1 @@
+project -fileorder "C:/users/aaron/documents/cpld/openx3/openx3.vhd" 
