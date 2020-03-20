@@ -9914,16 +9914,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.4498" y1="31.29" x2="23.876" y2="27.8638" width="0.1524" layer="16"/>
 <wire x1="26.546525" y1="21.212525" x2="26.546525" y2="20.9376875" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$56">
-<contactref element="R1" pad="3"/>
-<contactref element="R1" pad="6"/>
-<wire x1="35.8948" y1="8.27" x2="36.5252" y2="8.27" width="0.1524" layer="1"/>
-<wire x1="34.5948" y1="6.97" x2="34.8638" y2="7.239" width="0.1524" layer="1"/>
-<wire x1="34.8638" y1="7.239" x2="34.9815875" y2="7.239" width="0.1524" layer="1"/>
-<wire x1="34.9815875" y1="7.239" x2="35.1155" y2="7.3729125" width="0.1524" layer="1"/>
-<wire x1="35.1155" y1="7.3729125" x2="35.1155" y2="7.4907" width="0.1524" layer="1"/>
-<wire x1="35.1155" y1="7.4907" x2="35.8948" y2="8.27" width="0.1524" layer="1"/>
-</signal>
 <signal name="FPEJECT">
 <contactref element="R1" pad="5"/>
 <contactref element="J3" pad="1"/>
@@ -10733,6 +10723,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="29.1084" y="43.7134" extent="1-16" drill="0.35"/>
 <via x="30.861" y="24.384" extent="1-16" drill="0.35"/>
 <via x="31.115" y="32.0294" extent="1-16" drill="0.35"/>
+<contactref element="R1" pad="3"/>
+<contactref element="R1" pad="6"/>
+<wire x1="35.8948" y1="8.27" x2="36.5252" y2="8.27" width="0.1524" layer="1"/>
+<wire x1="34.5948" y1="6.97" x2="34.8638" y2="7.239" width="0.1524" layer="1"/>
+<wire x1="34.8638" y1="7.239" x2="34.9815875" y2="7.239" width="0.1524" layer="1"/>
+<wire x1="34.9815875" y1="7.239" x2="35.1155" y2="7.3729125" width="0.1524" layer="1"/>
+<wire x1="35.1155" y1="7.3729125" x2="35.1155" y2="7.4907" width="0.1524" layer="1"/>
+<wire x1="35.1155" y1="7.4907" x2="35.8948" y2="8.27" width="0.1524" layer="1"/>
+<via x="36.434421875" y="9.575596875" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED2" pad="A"/>

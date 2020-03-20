@@ -9124,6 +9124,7 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eSHD.pdf"&gt; Datashe
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J1" library="BM20B-SRDS-G-TFLFSN" deviceset="BM20B-SRDS-G-TF(LF)(SN)" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9375,6 +9376,9 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eSHD.pdf"&gt; Datashe
 </instance>
 <instance part="+3V2" gate="G$1" x="-86.36" y="124.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-83.82" y="129.54" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY13" gate="GND" x="-78.74" y="45.72" smashed="yes">
+<attribute name="VALUE" x="-80.645" y="42.545" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10036,16 +10040,6 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eSHD.pdf"&gt; Datashe
 <pinref part="U3" gate="A" pin="!CE"/>
 </segment>
 </net>
-<net name="N$56" class="0">
-<segment>
-<pinref part="R1" gate="A" pin="3"/>
-<wire x1="-81.28" y1="63.5" x2="-81.28" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="55.88" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="55.88" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R1" gate="A" pin="6"/>
-<wire x1="-43.18" y1="68.58" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="FPEJECT" class="0">
 <segment>
 <pinref part="R1" gate="A" pin="5"/>
@@ -10494,6 +10488,18 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eSHD.pdf"&gt; Datashe
 <wire x1="-76.2" y1="5.08" x2="-76.2" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R1" gate="A" pin="3"/>
+<wire x1="-81.28" y1="63.5" x2="-81.28" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="55.88" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="55.88" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="55.88" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R1" gate="A" pin="6"/>
+<wire x1="-43.18" y1="68.58" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
+<wire x1="-78.74" y1="48.26" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-78.74" y="55.88"/>
 </segment>
 </net>
 <net name="N$1" class="0">
