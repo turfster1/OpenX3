@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9066,10 +9066,10 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eSHD.pdf"&gt; Datashe
 <part name="U1" library="LC4256V-75VTN100C" deviceset="LC4256V-75TN100C" device="TQFP100-L"/>
 <part name="U2" library="AM29F016D-70EF" deviceset="AM29F016D-70EF" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X8" device="" package3d_urn="urn:adsk.eagle:package:22481/2"/>
-<part name="R1" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L"/>
-<part name="R2" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L"/>
-<part name="R3" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L"/>
-<part name="R4" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L"/>
+<part name="R1" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L" value="SI1967DH-T1-GE3"/>
+<part name="R2" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L" value="SI1967DH-T1-GE3"/>
+<part name="R3" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L" value="SI1967DH-T1-GE3"/>
+<part name="R4" library="UM6K31NFHA" deviceset="UM6K31NFHATCN" device="TRANS_UM6J1-L" value="SI1967DH-T1-GE3"/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="10k"/>
